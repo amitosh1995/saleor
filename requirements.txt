@@ -83,7 +83,7 @@ PyJWT==1.7.1
 Pyphen==0.9.5
 python-dateutil==2.8.1
 python-magic==0.4.18
-python-magic-bin==0.4.14
+python-magic-bin==0.4.14; sys_platform == "win32"
 pytz==2020.1
 razorpay==1.2.0
 redis==3.5.1
